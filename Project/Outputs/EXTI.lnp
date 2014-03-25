@@ -1,4 +1,0 @@
---cpu Cortex-M3 ".\outputs\main.o" ".\outputs\stm32f10x_it.o" ".\outputs\hw_config.o" ".\outputs\systick.o" ".\outputs\usart.o" ".\outputs\systemclock.o" ".\outputs\touchscreen.o" ".\outputs\lcd.o" ".\outputs\misc.o" ".\outputs\stm32f10x_cec.o" ".\outputs\stm32f10x_exti.o" ".\outputs\stm32f10x_flash.o" ".\outputs\stm32f10x_gpio.o" ".\outputs\stm32f10x_rcc.o" ".\outputs\stm32f10x_usart.o" ".\outputs\stm32f10x_fsmc.o" ".\outputs\core_cm3.o" ".\outputs\startup_stm32f10x_hd.o" ".\outputs\system_stm32f10x.o" --library_type=microlib --strict --scatter ".\Outputs\EXTI.sct" 
---summary_stderr --info summarysizes --map --xref --callgraph --symbols 
---info sizes --info totals --info unused --info veneers 
- --list ".\Lists\EXTI.map" -o ".\Outputs\EXTI.axf"
