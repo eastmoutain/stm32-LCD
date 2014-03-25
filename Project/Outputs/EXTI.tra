@@ -1,0 +1,37 @@
+*** Creating Trace Output File '.\Outputs\EXTI.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\outputs\main.o"'
+### List of Objects: adding '".\outputs\stm32f10x_it.o"'
+### List of Objects: adding '".\outputs\hw_config.o"'
+### List of Objects: adding '".\outputs\systick.o"'
+### List of Objects: adding '".\outputs\usart.o"'
+### List of Objects: adding '".\outputs\systemclock.o"'
+### List of Objects: adding '".\outputs\touchscreen.o"'
+### List of Objects: adding '".\outputs\lcd.o"'
+### List of Objects: adding '".\outputs\misc.o"'
+### List of Objects: adding '".\outputs\stm32f10x_cec.o"'
+### List of Objects: adding '".\outputs\stm32f10x_exti.o"'
+### List of Objects: adding '".\outputs\stm32f10x_flash.o"'
+### List of Objects: adding '".\outputs\stm32f10x_gpio.o"'
+### List of Objects: adding '".\outputs\stm32f10x_rcc.o"'
+### List of Objects: adding '".\outputs\stm32f10x_usart.o"'
+### List of Objects: adding '".\outputs\stm32f10x_fsmc.o"'
+### List of Objects: adding '".\outputs\core_cm3.o"'
+### List of Objects: adding '".\outputs\startup_stm32f10x_hd.o"'
+### List of Objects: adding '".\outputs\system_stm32f10x.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\outputs\main.o" ".\outputs\stm32f10x_it.o" ".\outputs\hw_config.o" ".\outputs\systick.o" ".\outputs\usart.o" ".\outputs\systemclock.o" ".\outputs\touchscreen.o" ".\outputs\lcd.o" ".\outputs\misc.o" ".\outputs\stm32f10x_cec.o" ".\outputs\stm32f10x_exti.o" ".\outputs\stm32f10x_flash.o" ".\outputs\stm32f10x_gpio.o" ".\outputs\stm32f10x_rcc.o" ".\outputs\stm32f10x_usart.o" ".\outputs\stm32f10x_fsmc.o" ".\outputs\core_cm3.o" ".\outputs\startup_stm32f10x_hd.o" ".\outputs\system_stm32f10x.o" --library_type=microlib --strict --scatter ".\Outputs\EXTI.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lists\EXTI.map" -o ".\Outputs\EXTI.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Outputs\EXTI.axf'
+### ADS-LD Command File: '.\Outputs\EXTI.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Outputs\EXTI.lnp', Handle=0x0000032C
+### Writing '.lnp' file
+### ADS-LD Command file '.\Outputs\EXTI.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
